@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Header {
     color: #fff;
@@ -11,34 +12,53 @@
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 10px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 20px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #F9FAF8;
 }
 
 .title {
-    font-size: 49px;
+    font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    max-width: 444px;
 }
 
 .titlesub {
     font-size: 18px;
     color: #E5E7E8;
+    max-width: 444px;
 }
 
 .headerbody {
     display: flex;
     margin: 100px;
+    justify-content: space-around;
 }
 
 img{
     max-height: 200px;
+    margin-left: 44px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
 }
